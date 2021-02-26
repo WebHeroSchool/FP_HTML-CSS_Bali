@@ -120,3 +120,90 @@
    margin: 24px 4px 0px 1px;
   padding: 0 0 25px 0;
 }
+#menu__toggle {
+  opacity: 0;
+}
+ .menu__box {
+  display:none
+}
+
+@media (max-width: 1367px) {
+ body {
+  margin: 0;
+  background: no-repeat fixed url(img/logo1.png);
+  background-size: 98% 98%;
+}
+ .wrapper {
+   margin: auto;
+   width: 90%;
+}
+ .header {
+   width: 98%;
+   padding-bottom: 92px;
+}
+ .logo {
+   margin-right: 45%;
+}
+ .logo {
+   margin-top: 65px;
+   margin-left: 59px;
+   background: url(img/logo0.1.png);
+   width: 105px;
+   height: 40px;
+}
+ .menu__item {
+   margin-right: 25px;
+   margin-top: 60px;
+   font: 16px/19px museo_sans_cyrl500, arial, helvetica, sans-serif;
+}
+ .main {
+   width: 42%;
+}
+ .main__title {
+   font: 200px/265px pt_serifbold, arial, helvetica, sans-serif;
+}
+ .main__title_text {
+   font: 70px/93px pt_serifbold, arial, helvetica, sans-serif;
+   margin: -102px 0 0 85px;
+}  
+ .main__subtitle {
+   padding-top: 1px;
+   font: 16px/19px museo_sans_cyrl500, arial, helvetica, sans-serif;
+   margin: 0 0 20px 90px;
+   width: 78%;
+}
+ .main__button {
+   display: inline-block;
+   font: 16px/19px museo_sans_cyrl500, arial, helvetica, sans-serif;
+   margin-right: 24%;
+   color: #fff;
+   background: #D4BEA3;
+   padding: 15px 65px;
+   text-decoration: none;
+   border-radius: 48px;
+}
+ .img {
+   display: flex;
+   justify-content: flex-end;
+   align-items: baseline;
+   right: 10px;
+   top: -343px;
+   left: 210px;
+   position: relative;
+   width: 89%;
+} 
+ .img__pic1 {
+   margin-right: 2px;
+   padding: 23px 20px 2px 3px;
+   width: 21%;
+}
+ .img__pic2 {
+   margin: 2px 2px 2px 0;
+   padding: 0 25px 18px 0;
+   width: 18%;
+}
+ .img__pic3 {
+   margin: 2px 8px 0 1px;
+   padding: 0 0 21px 2px;
+   width: 13%;
+}
