@@ -1,7 +1,7 @@
  body {
   margin: 0;
   background: no-repeat fixed url(img/logo1.png);
-  background-size: 100%;
+  background-size: 100% 100%;
 }
  .wrapper {
   margin: auto;
@@ -87,7 +87,6 @@
 }
  .main__button {
   display: inline-block;
-
   font: 22px/26px museo_sans_cyrl500, arial, helvetica, sans-serif;
   margin-right: 21%;
   color: #fff;
@@ -101,17 +100,23 @@
 }
  .img {
    display: flex;
-   justify-content: space-between;
-   align-items: center;
+   justify-content: flex-end;
+   align-items: baseline;
+   right: 10px;
+   top: -456px;
+   left: 231px;
+   position: relative;
+   width: 90%;
 } 
  .img__pic1 {
    margin-right: 6px;
-   padding: 20px 26px 22px 0px;
+   padding: 20px 26px 2px 0px;
 }
-.img__pic2 {
-   width: 245px;
+ .img__pic2 {
+   margin: 24px 5px 0 0;
+   padding: 0 22px 23px 0;
 }
-.img__pic3 {
-   margin: 0 -9px 0 23px;
-   width: 178px;
+ .img__pic3 {
+   margin: 24px 4px 0px 1px;
+  padding: 0 0 25px 0;
 }
