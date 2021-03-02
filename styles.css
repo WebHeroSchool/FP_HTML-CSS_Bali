@@ -1,47 +1,32 @@
  body {
+  min-height: 100vh;
   margin: 0;
   background: no-repeat fixed url(img/logo1.png);
-  background-size: 100% 100%;
+  background-size: cover;
 }
  .wrapper {
-  margin: auto;
-  width: 95%;
+   margin: 0 80px 0 148px
 }
  .header {
+   margin-top: 50px;
    display: flex;
    justify-content: space-between;
-   margin: auto;
-   width: 92%;
-   padding-bottom: 130px;
-}
- .logo, .menu {
-   display: inline-block;
 }
  .logo {
-   margin-right: 55%;
-}
- .logo {
-   position: relative;
-   margin-top: 90px;
-   margin-left: 85px;
    background: url(img/logo.png);
-   width: 145px;
-   height: 57px;
+   background-size: contain;
+   margin-top: 35px;
+   margin-left: 47px;
+   width: 155px;
+   height: 98px;
+   background-repeat: no-repeat;
 }
  .menu {
   display: flex;
   align-items: center;
 }
- .menu__item { 
-   padding: 0px 0px;
-}
- .menu__item:last-child {
-  margin-right: 5px;
-}
  .menu__item {
-  position: relative;
-  margin-right: 37px;
-  margin-top: 76px;
+  margin-right: 38px;
   font: 22px/26px museo_sans_cyrl500, arial, helvetica, sans-serif;
   color: #f8eee4;
   text-decoration: none;
@@ -60,30 +45,41 @@
    width: 100%;	
 }
  .main {
+}
+ .information {
+   display: flex;
+}
+ .main__title {
   position: relative;
-  text-align: center;
-  width: 45%;
-}
-.main__title {
   font: 280px/371px pt_serifbold, arial, helvetica, sans-serif;
-  color: #F8EEE4;
-  opacity: .4;
-  margin: 0;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 50px;
+  line-height: 460px;
 }
-.main__title_text {
-  font: 98px/130px pt_serifbold, arial, helvetica, sans-serif;
-  margin: -145px 0 0 125px;
-  color: #F8EEE4;
-  padding: 0 0 14px 0;
+ .main__title::after {
+   content: 'Indonesia';
+   position: relative;
+   margin: 0;
+   bottom: -40px;
+   right: 440px;
+   color: rgba(255, 255, 255);
+   font: 98px/130px pt_serifbold, arial, helvetica, sans-serif;
 }
-.main__subtitle {
-  margin: auto;
-  padding-top: 12px;
+ .main__subtitle {
+   display: none;
+   position: absolute;
+   font: 78px/130px pt_serifbold, arial, helvetica, sans-serif;
+   margin: 0;
+   bottom: 0px;
+   right: 0px;
+   color: rgba(255, 255, 255);
+}
+ .main__description {
+  width: 52%;
+  padding-bottom: 50px;
+  margin-left: 70px;
   font: 22px/26px museo_sans_cyrl500, arial, helvetica, sans-serif;
-  width: 550px;
   color: #F8EEE4;
-  margin: 0 0 29px 175px;
-  text-align: left;
 }
  .main__button {
   display: inline-block;
@@ -100,110 +96,84 @@
 }
  .img {
    display: flex;
-   justify-content: flex-end;
-   align-items: baseline;
-   right: 10px;
-   top: -456px;
-   left: 231px;
-   position: relative;
-   width: 90%;
-} 
- .img__pic1 {
-   margin-right: 6px;
-   padding: 20px 26px 2px 0px;
-}
- .img__pic2 {
-   margin: 24px 5px 0 0;
-   padding: 0 22px 23px 0;
-}
- .img__pic3 {
-   margin: 24px 4px 0px 1px;
-  padding: 0 0 25px 0;
-}
-#menu__toggle {
-  opacity: 0;
-}
- .menu__box {
-  display:none
-}
+   align-items: center;
+ }
 
-@media (max-width: 1367px) {
- body {
-  margin: 0;
-  background: no-repeat fixed url(img/logo1.png);
-  background-size: 98% 98%;
-}
- .wrapper {
-   margin: auto;
-   width: 90%;
-}
- .header {
-   width: 98%;
-   padding-bottom: 92px;
-}
- .logo {
-   margin-right: 45%;
-}
- .logo {
-   margin-top: 65px;
-   margin-left: 59px;
-   background: url(img/logo0.1.png);
-   width: 105px;
-   height: 40px;
-}
- .menu__item {
-   margin-right: 25px;
-   margin-top: 60px;
-   font: 16px/19px museo_sans_cyrl500, arial, helvetica, sans-serif;
-}
- .main {
-   width: 42%;
-}
- .main__title {
-   font: 200px/265px pt_serifbold, arial, helvetica, sans-serif;
-}
- .main__title_text {
-   font: 70px/93px pt_serifbold, arial, helvetica, sans-serif;
-   margin: -102px 0 0 85px;
-}  
- .main__subtitle {
-   padding-top: 1px;
-   font: 16px/19px museo_sans_cyrl500, arial, helvetica, sans-serif;
-   margin: 0 0 20px 90px;
-   width: 78%;
-}
- .main__button {
-   display: inline-block;
-   font: 16px/19px museo_sans_cyrl500, arial, helvetica, sans-serif;
-   margin-right: 24%;
-   color: #fff;
-   background: #D4BEA3;
-   padding: 15px 65px;
-   text-decoration: none;
-   border-radius: 48px;
-}
- .img {
-   display: flex;
-   justify-content: flex-end;
-   align-items: baseline;
-   right: 10px;
-   top: -343px;
-   left: 210px;
+ .img__picture_active {
+   width: 225px !important;
+   height: 300px !important;
+ }
+
+ .img__picture {
+   width: 200px;
+   height: 270px;
+   background-repeat: no-repeat;
+   background-size: contain;
+ }
+
+ .img__picture_first {
+   background-image: url("./img/logo2.png");
+
+ }
+
+ .img__picture_second {
+   background-image: url("./img/logo3.png");
+   margin: 0 10px;
+
+ }
+
+ .img__picture_third {
+   background-image: url("./img/logo4.png");
+
+ }
+
+ #menu__toggle {
+   opacity: 0;
+ }
+
+ .menu__box {
+   display: none
+ }
+
+ .hamburger-menu {
+   display: none;
+ }
+
+ .menu__btn span {
+   display: block;
+   height: 5px;
+
+   width: 30px;
+   background-color: white;
    position: relative;
-   width: 89%;
-} 
- .img__pic1 {
-   margin-right: 2px;
-   padding: 23px 20px 2px 3px;
-   width: 21%;
-}
- .img__pic2 {
-   margin: 2px 2px 2px 0;
-   padding: 0 25px 18px 0;
-   width: 18%;
-}
- .img__pic3 {
-   margin: 2px 8px 0 1px;
-   padding: 0 0 21px 2px;
-   width: 13%;
-}
+ }
+
+ .menu__btn span::after,
+ .menu__btn span::before {
+
+   content: '';
+   position: absolute;
+   height: 2px;
+
+   width: 30px;
+   background-color: white;
+ }
+
+ .menu__btn span::after {
+   top: -5px;
+ }
+
+ .menu__btn span::before {
+   bottom: -5px;
+ }
+
+ @media (max-width: 768px) {
+   .hamburger-menu {
+     display: block;
+   }
+
+   .menu {
+     display: none;
+   }
+ }
+
