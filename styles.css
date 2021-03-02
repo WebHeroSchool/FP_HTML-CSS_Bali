@@ -58,10 +58,10 @@
 }
  .main__title::after {
    content: 'Indonesia';
-   position: relative;
-   margin: 0;
-   bottom: -40px;
-   right: 440px;
+   position: absolute;
+   margin: -1px;
+   bottom: -1px;
+   right: 182px;
    color: rgba(255, 255, 255);
    font: 98px/130px pt_serifbold, arial, helvetica, sans-serif;
 }
@@ -75,22 +75,25 @@
    color: rgba(255, 255, 255);
 }
  .main__description {
-  width: 52%;
-  padding-bottom: 14px;
-  margin-left: 70px;
-  font: 22px/26px museo_sans_cyrl500, arial, helvetica, sans-serif;
-  color: #F8EEE4;
+   width: 71%;
+   padding-bottom: 13px;
+   margin-left: 72px;
+   font: 22px/26px museo_sans_cyrl500, arial, helvetica, sans-serif;
+   color: #F8EEE4;
 }
  .main__button {
-  display: inline-block;
+  display: flex;
   font: 22px/26px museo_sans_cyrl500, arial, helvetica, sans-serif;
   margin-left: 76px;
   color: #fff;
   background: #D4BEA3;
-  padding: 17px 84px;
   text-decoration: none;
   border-radius: 48px;
-  width: 12%;
+  width: 292px;
+  height: 62px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
  .main__button:hover {
    opacity: .5;
