@@ -59,20 +59,10 @@
  .main__title::after {
    content: 'Indonesia';
    position: absolute;
-   margin: -1px;
    bottom: -1px;
-   right: 182px;
+   right: 181px;
    color: rgba(255, 255, 255);
    font: 98px/130px pt_serifbold, arial, helvetica, sans-serif;
-}
- .main__subtitle {
-   display: none;
-   position: absolute;
-   font: 78px/130px pt_serifbold, arial, helvetica, sans-serif;
-   margin: 0;
-   bottom: 0px;
-   right: 0px;
-   color: rgba(255, 255, 255);
 }
  .main__description {
    width: 71%;
@@ -100,16 +90,34 @@
 }
  .img {
    width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: flex-end;
- }
-
- .img__picture_active {
-   width: 225px !important;
-   height: 300px !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 186px;
 }
 
+ .img__picture:nth-child(1) {
+  width: 319px;
+  height: 421px;
+  background-image: url("./img/logo2.png");
+
+}
+
+ .img__picture:nth-child(2) {
+  width: 286px;
+  height: 381px;
+  margin-left: 33px;
+  background-image: url("./img/logo3.png");
+
+}
+ 
+ .img__picture:nth-child(3) {
+  width: 207px;
+  height: 380px;
+  margin-left: 32px;
+  background-image: url("./img/logo4.png");
+
+}
  .img__picture {
    width: 200px;
    height: 270px;
@@ -117,23 +125,7 @@
    background-size: cover;
 }
 
- .img__picture_first {
-   background-image: url("./img/logo2.png");
-
- }
-
- .img__picture_second {
-   background-image: url("./img/logo3.png");
-   margin: 0 10px;
-
- }
-
- .img__picture_third {
-   background-image: url("./img/logo4.png");
-
- }
-
- #menu__toggle {
+  #menu__toggle {
    opacity: 0;
  }
 
