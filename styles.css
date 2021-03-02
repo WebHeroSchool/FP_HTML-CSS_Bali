@@ -5,10 +5,11 @@
   background-size: cover;
 }
  .wrapper {
-   margin: 0 80px 0 148px
+   margin: 0 0 0 148px
 }
  .header {
-   margin-top: 50px;
+   margin: 0 80px 0 0;
+   padding-top: 50px;
    display: flex;
    justify-content: space-between;
 }
@@ -95,21 +96,23 @@
    opacity: .5;
 }
  .img {
+   width: 100%;
    display: flex;
    align-items: center;
+   justify-content: flex-end;
  }
 
  .img__picture_active {
    width: 225px !important;
    height: 300px !important;
- }
+}
 
  .img__picture {
    width: 200px;
    height: 270px;
    background-repeat: no-repeat;
-   background-size: contain;
- }
+   background-size: cover;
+}
 
  .img__picture_first {
    background-image: url("./img/logo2.png");
@@ -175,5 +178,4 @@
    .menu {
      display: none;
    }
- }
-
+ 
