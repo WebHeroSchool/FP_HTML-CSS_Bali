@@ -51,10 +51,9 @@
 }
  .main__title {
   position: relative;
-  font: 280px/371px pt_serifbold, arial, helvetica, sans-serif;
+  font: 280px/342px pt_serifbold, arial, helvetica, sans-serif;
   color: rgba(255, 255, 255, 0.4);
-  margin: 50px;
-  line-height: 460px;
+  margin: 109px 0 0 50px;
 }
  .main__title::after {
    content: 'Indonesia';
@@ -76,7 +75,7 @@
 }
  .main__description {
   width: 52%;
-  padding-bottom: 50px;
+  padding-bottom: 14px;
   margin-left: 70px;
   font: 22px/26px museo_sans_cyrl500, arial, helvetica, sans-serif;
   color: #F8EEE4;
@@ -84,12 +83,13 @@
  .main__button {
   display: inline-block;
   font: 22px/26px museo_sans_cyrl500, arial, helvetica, sans-serif;
-  margin-right: 21%;
+  margin-left: 76px;
   color: #fff;
   background: #D4BEA3;
-  padding: 17px 92px;
+  padding: 17px 84px;
   text-decoration: none;
   border-radius: 48px;
+  width: 12%;
 }
  .main__button:hover {
    opacity: .5;
