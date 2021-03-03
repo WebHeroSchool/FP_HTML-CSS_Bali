@@ -280,14 +280,27 @@
   background: no-repeat fixed url(img/logo1.1.png);
   background-size: cover;
 }
+ .wrapper {
+   margin: 0 0 0 -6px;
+}
+ .header {
+   margin: 4px 114px 0 20px;
+   padding-top: 89px;
+ }
+  .logo {
+    margin-top: -8px;
+    margin-left: 70px;
+    width: 206px;
+    height: 83px;
+}
  .menu__btn {
    display: flex;
    justify-content: space-between;
    align-items: center;
    position: fixed;
-   top: 22.5px;
-   width: 23px;
-   height: 23px;
+   top: 92.5px;
+   width: 51px;
+   height: 49px;
    cursor: pointer;
    z-index: 2;
 }
@@ -297,16 +310,16 @@
    display: block;
    position: absolute;
    width: 100%;
-   height: 4px;
-   background-color: #0056ec;
+   height: 5px;
+   background-color: #f8eee4;
 }
  .menu__btn > span::before {
    content: '';
-   top: 7px;
+   top: -15px;
 }
  .menu__btn > span::after {
    content: '';
-   top: 13px;
+   top: 17px;
 }
  .menu__box {
    display: block;
@@ -347,4 +360,29 @@
 }
  .img {
    display: none;
+}
+ .main__title {
+   font: 335px/220px pt_serifbold, arial, helvetica, sans-serif;
+   margin: 220px 0 0 42px;
+}
+ .main__title::after {
+    bottom: -89px;
+    right: 57px;
+    font: 118px/87px pt_serifbold, arial, helvetica, sans-serif;
+}
+ .main__description {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 103px;
+    margin-top: 200px;
+    margin-left: 122px;
+    font: 36px/42px museo_sans_cyrl500, arial, helvetica, sans-serif;
+}
+ .main__button {
+    margin-top: -64px;
+    width: 419px;
+    height: 86px;
+    font: 31px/16px museo_sans_cyrl500, arial, helvetica, sans-serif;
+    margin-left: 158px;
 }
