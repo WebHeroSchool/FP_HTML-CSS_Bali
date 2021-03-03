@@ -298,7 +298,7 @@
    justify-content: space-between;
    align-items: center;
    position: fixed;
-   top: 92.5px;
+   top: 104.5px;
    width: 51px;
    height: 49px;
    cursor: pointer;
@@ -324,12 +324,12 @@
  .menu__box {
    display: block;
    position: fixed;
-   top: -95px;
+   top: -85px;
    left: -100%;
    width: 100%;
    height: 100%;
-   margin: 0;
-   padding: 320px 0;
+   margin: -15px;
+   padding: 399px 19px;
    list-style: none;
    text-align: center;
    background-color: #fff;
@@ -338,9 +338,10 @@
 }
  .menu__item {
    display: block;
-   padding: 70px 24px 0 0;
+   padding: 88px 0 0 9px;
    color: #333;
-   font: 500 50px/34px Roboto, sans-serif;
+   font: 900 56px/34px museo_sans_cyrl500, sans-serif;
+   letter-spacing: 3px;
    text-decoration: none;
 }
  #menu__toggle:checked ~ .menu__btn > span {
@@ -374,9 +375,10 @@
     width: 75%;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-bottom: 103px;
     margin-top: 200px;
-    margin-left: 122px;
+    margin-left: 90px;
     font: 36px/42px museo_sans_cyrl500, arial, helvetica, sans-serif;
 }
  .main__button {
