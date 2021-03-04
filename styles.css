@@ -396,3 +396,47 @@
     font: 31px/16px museo_sans_cyrl500, arial, helvetica, sans-serif;
     margin-left: 158px;
 }
+@media (max-width: 375px) {
+  .header {
+    margin: -9px 114px 0 27px;
+    padding-top: 89px;
+}
+ .menu__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 86.5px;
+    width: 50px;
+    height: 49px;
+    cursor: pointer;
+    z-index: 2;
+}
+ .main__title {
+    font: 261px/154px pt_serifbold, arial, helvetica, sans-serif;
+    margin: 171px 0 0 42px;
+}
+ .main__title::after {
+    bottom: -73px;
+    right: -25px;
+    font: 85px/87px pt_serifbold, arial, helvetica, sans-serif;
+}
+ .main__description {
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 105px;
+    margin-top: 142px;
+    margin-left: 62px;
+    font: 25px/39px museo_sans_cyrl500, arial, helvetica, sans-serif;
+}
+ .main__button {
+    margin-top: -55px;
+    margin-right: 3px;
+    width: 280px;
+    height: 59px;
+    font: 27px/21px museo_sans_cyrl500, arial, helvetica, sans-serif;
+    margin-left: 138px;
+    justify-content: center;
+}
