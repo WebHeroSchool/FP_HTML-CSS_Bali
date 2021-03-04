@@ -273,13 +273,13 @@
    display: block;
 }
  .menu {
-     display: none;
+   display: none;
 }
  body {
   min-height: 100vh;
   margin: 0;
   background: no-repeat fixed url(img/logo1.1.png);
-  background-size: cover;
+  background-size: cover; 
 }
  .wrapper {
    margin: 0 0 0 -6px;
@@ -288,15 +288,14 @@
    margin: 4px 114px 0 20px;
    padding-top: 89px;
  }
-  .logo {
-    margin-top: -8px;
-    margin-left: 70px;
-    width: 206px;
-    height: 83px;
+ .logo {
+   margin-top: -8px;
+   margin-left: 70px;
+   width: 206px;
+   height: 83px;
 }
  .menu__btn {
    display: flex;
-   flex-direction: column;
    justify-content: center;
    align-items: center;
    position: fixed;
@@ -323,6 +322,9 @@
    content: '';
    top: 17px;
 }
+ .menu__box > li {
+  text-align: center;
+}
  .menu__box {
    display: block;
    position: fixed;
@@ -339,8 +341,11 @@
    z-index: 1;
 }
  .menu__item {
-   display: block;
-   padding: 88px 0 0 9px;
+   display: flex;
+   justify-content: center;
+   width: max-content;
+   text-align: center;
+   padding: 88px 0 0 222px;
    color: #333;
    font: 900 56px/34px museo_sans_cyrl500, sans-serif;
    letter-spacing: 3px;
