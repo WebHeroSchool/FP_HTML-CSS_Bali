@@ -189,6 +189,7 @@
    padding-bottom: 9px;
    margin-left: 61px;
    font: 16px/20px museo_sans_cyrl500, arial, helvetica, sans-serif;
+   width: 71%;
 }
  .main__button {
   font: 16px/15px museo_sans_cyrl500, arial, helvetica, sans-serif;
@@ -295,7 +296,8 @@
 }
  .menu__btn {
    display: flex;
-   justify-content: space-between;
+   flex-direction: column;
+   justify-content: center;
    align-items: center;
    position: fixed;
    top: 104.5px;
