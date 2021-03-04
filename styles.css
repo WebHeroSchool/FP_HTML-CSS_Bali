@@ -398,45 +398,57 @@
 }
 @media (max-width: 375px) {
   .header {
-    margin: -9px 114px 0 27px;
-    padding-top: 89px;
+    margin: 0 31px 0 11px;
+    padding-top: 69px;
+}
+ .logo {
+    margin-top: -24px;
+    margin-left: 23px;
+    width: 190px;
+    height: 40px;
 }
  .menu__btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 86.5px;
-    width: 50px;
-    height: 49px;
-    cursor: pointer;
-    z-index: 2;
+    top: 40.5px;
+    width: 28px;
+    height: 51px;
+}
+ .menu__btn > span,
+ .menu__btn > span::before,
+ .menu__btn > span::after {
+   display: block;
+   position: absolute;
+   width: 100%;
+   height: 3px;
+   background-color: #f8eee4;
+}
+ .menu__btn > span::before {
+   content: '';
+   top: -5px;
+}
+ .menu__btn > span::after {
+   content: '';
+   top: 5px;
 }
  .main__title {
-    font: 261px/154px pt_serifbold, arial, helvetica, sans-serif;
-    margin: 171px 0 0 42px;
+    font: 150px/6px pt_serifbold, arial, helvetica, sans-serif;
+    margin: 172px 0 0 29px;
 }
  .main__title::after {
-    bottom: -73px;
-    right: -25px;
-    font: 85px/87px pt_serifbold, arial, helvetica, sans-serif;
+    bottom: -99px;
+    right: 62px;
+    font: 49px/78px pt_serifbold, arial, helvetica, sans-serif;
 }
  .main__description {
-    width: 78%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 105px;
-    margin-top: 142px;
-    margin-left: 62px;
-    font: 25px/39px museo_sans_cyrl500, arial, helvetica, sans-serif;
+    width: 68%;
+    padding-bottom: 175px;
+    margin-top: 136px;
+    margin-left: 50px;
+    font: 16px/21px museo_sans_cyrl500, arial, helvetica, sans-serif;
 }
  .main__button {
-    margin-top: -55px;
-    margin-right: 3px;
-    width: 280px;
-    height: 59px;
-    font: 27px/21px museo_sans_cyrl500, arial, helvetica, sans-serif;
-    margin-left: 138px;
-    justify-content: center;
+    margin-top: -143px;
+    width: 209px;
+    height: 37px;
+    font: 16px/21px museo_sans_cyrl500, arial, helvetica, sans-serif;
+    margin-left: 77px;
 }
