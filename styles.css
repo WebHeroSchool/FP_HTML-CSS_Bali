@@ -149,8 +149,7 @@
    background-repeat: no-repeat;
    background-size: cover;
 }
-
-  #menu__toggle {
+ #menu__toggle {
    opacity: 0;
  }
 
@@ -712,7 +711,7 @@
    justify-content: center;
 }
  .menu__box {
-   display: block;
+   display: none;
    position: absolute;
    overflow: auto;
    top: -85px;
@@ -750,7 +749,7 @@
    transform: rotate(90deg);
 }
  #menu__toggle:checked ~ .menu__box {
-   visibility: visible;
+   visibility: block;
    left: 0;
 }
  .img {
@@ -989,7 +988,7 @@
     text-decoration: none;
 }
  .menu__box {
-    display: block;
+    display: none;
     position: absolute;
     overflow: auto;
     top: -85px;
