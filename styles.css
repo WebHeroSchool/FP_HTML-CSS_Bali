@@ -838,7 +838,7 @@
 }
 @media (max-width: 546px) {
 .header {
-    margin: 4px 61px 0;
+    margin: 4px 61px 0 0;
     padding-top: 67px;
 }
 .logo {
@@ -891,7 +891,7 @@
 }
 @media (max-width: 520px) {	
 .header {
-    margin: 3px 54px 0 0px;
+    margin: 3px 54px 0 0;
     padding-top: 89px;
 }
 .logo {
@@ -968,7 +968,7 @@
 }
 @media (max-width: 375px) {
   .header {
-    margin: 0 31px 0 11px;
+    margin: 0 31px 0 0;
     padding-top: 69px;
 }
  .logo {
