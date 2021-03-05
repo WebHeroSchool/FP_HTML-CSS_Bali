@@ -659,7 +659,7 @@
    margin: 0 0 0 40px;
 }
  .header {
-   margin: 4px 114px 0 20px;
+   margin: 4px 114px 0 0;
    padding-top: 89px;
  }
  .logo {
@@ -836,9 +836,62 @@
     font: 20px/16px museo_sans_cyrl500, arial, helvetica, sans-serif;
     margin-left: 101px;
 }
+@media (max-width: 546px) {
+.header {
+    margin: 4px 61px 0;
+    padding-top: 67px;
+}
+.logo {
+    width: 159px;
+    height: 52px;
+}
+.menu__btn {
+    top: 65.5px;
+    width: 41px;
+    height: 47px;
+    cursor: pointer;
+    z-index: 2;
+}
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {
+    height: 3px;
+}
+.menu__btn > span::before {
+    content: '';
+    top: -11px;
+}
+.menu__btn > span::after {
+    content: '';
+    top: 11px;
+}
+.menu__item {
+    font: 900 48px/3px museo_sans_cyrl500, sans-serif;
+}
+.main__title {
+    font: 206px/214px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__title::after {
+    bottom: -28px;
+    right: 96px;
+    font: 67px/96px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__description {
+    width: 67%;
+    padding-bottom: 87px;
+    margin-top: 121px;
+    margin-left: 46px;
+    font: 21px/31px museo_sans_cyrl500, arial, helvetica, sans-serif;
+}
+.main__button {
+    margin-top: -38px;
+    width: 295px;
+    height: 52px;
+    font: 18px/16px museo_sans_cyrl500, arial, helvetica, sans-serif;
+    margin-left: 71px;
+}
+}
 @media (max-width: 520px) {	
 .header {
-    margin: 3px 54px 0 -22px;
+    margin: 3px 54px 0 0px;
     padding-top: 89px;
 }
 .logo {
@@ -890,7 +943,29 @@
     font: 20px/16px museo_sans_cyrl500, arial, helvetica, sans-serif;
     margin-left: 62px;
 }
-
+@media (max-width: 434px) {
+.main__title {
+    font: 164px/213px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__title::after {
+    bottom: -27px;
+    right: 70px;
+    font: 54px/129px pt_serifbold, arial, helvetica, sans-serif;
+}
+.main__description {
+    width: 82%;
+    padding-bottom: 93px;
+    margin-top: 107px;
+    margin-left: 9px;
+    font: 20px/29px museo_sans_cyrl500, arial, helvetica, sans-serif;
+}
+.main__button {
+    margin-top: -39px;
+    width: 286px;
+    height: 50px;
+    font: 18px/16px museo_sans_cyrl500, arial, helvetica, sans-serif;
+    margin-left: 33px;
+}
 @media (max-width: 375px) {
   .header {
     margin: 0 31px 0 11px;
@@ -1005,4 +1080,5 @@
 }
 .main__button {
     margin-left: 21px;
+}
 }
