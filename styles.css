@@ -46,8 +46,6 @@
    opacity: 1;
    width: 100%;	
 }
- .main {
-}
  .information {
    display: flex;
 }
@@ -120,28 +118,22 @@
     justify-content: flex-end;
     padding-top: 186px;
 }
-
  .img__picture:nth-child(1) {
   width: 319px;
   height: 421px;
   background-image: url("./img/logo2.png");
-
 }
-
  .img__picture:nth-child(2) {
   width: 286px;
   height: 381px;
   margin-left: 33px;
   background-image: url("./img/logo3.png");
-
 }
- 
  .img__picture:nth-child(3) {
   width: 207px;
   height: 380px;
   margin-left: 32px;
   background-image: url("./img/logo4.png");
-
 }
  .img__picture {
    width: 200px;
@@ -151,12 +143,10 @@
 }
  #menu__toggle {
    opacity: 0;
- }
-
+}
  .menu__box {
    display: none
- }
-
+}
 @media (max-width: 1837px) {
 body {
   padding-bottom: 12%;
@@ -505,7 +495,6 @@ body {
     margin-left: 40px;
     width: 81%;
 }
-
 @media (max-width: 1024px) {
 body {
   padding-bottom: 12%;
@@ -549,7 +538,6 @@ body {
    height: 44px;
    font: 17px/15px museo_sans_cyrl500, arial, helvetica, sans-serif;
    margin-left: 62px;
-}
 }
  .img {
    padding-top: 155px;
@@ -671,7 +659,6 @@ body {
   background: no-repeat fixed url(img/logo1.1.png);
   background-size: cover; 
   padding-bottom: 20%;
-}
 }
  .wrapper {
    margin: 0 0 0 40px;
