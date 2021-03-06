@@ -3,7 +3,7 @@
   margin: 0;
   background: no-repeat fixed url(img/logo1.png);
   background-size: cover;
-  padding-bottom: 0%;
+  padding-bottom: 12%;
 }
  .wrapper {
    margin: 0 0 0 148px
@@ -758,14 +758,17 @@ body {
 }
  #menu__toggle:checked ~ .menu__btn > span {
    transform: rotate(45deg);
+   background-color: #000;
 }
  #menu__toggle:checked ~ .menu__btn > span::before {
    top: 0;
    transform: rotate(0);
+   background-color: #000;
 }
  #menu__toggle:checked ~ .menu__btn > span::after {
    top: 0;
    transform: rotate(90deg);
+   background-color: #000;
 }
  #menu__toggle:checked ~ .menu__box {
    display: block;
